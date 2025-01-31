@@ -1,4 +1,5 @@
-import './App.css';
+//import './App.css';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
@@ -6,13 +7,13 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 function App() {
 
   return (
-    <div style={style.main}>
+    <div>
       <BrowserRouter>
-      <HeaderComponent/>
+      
       <Routes>
-        <Route path="/" element={<ExampleCompoment/>}>/</Route>
+        
       </Routes>
-      <FooterComponent/>
+     
       </BrowserRouter>
     </div>
   );
